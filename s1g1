@@ -1,0 +1,1492 @@
+Last login: Mon Sep 18 20:16:05 on ttys001
+(base) aybenercetin@Ayben-MacBook-Air ~ % git clone git@github.com:Workintech/FSWeb-S1G1-Projesi-Web-Development-Projesi-icin-Git.git
+Cloning into 'FSWeb-S1G1-Projesi-Web-Development-Projesi-icin-Git'...
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+(base) aybenercetin@Ayben-MacBook-Air ~ % ls
+Applications		Public			untitled10.py
+Desktop			PycharmProjects		untitled11.py
+Documents		Untitled.ipynb		untitled12.py
+Downloads		Yandex.Disk.localized	untitled2.py
+Google Drive		firstproject		untitled3.py
+Library			if elif else		untitled5.py
+Movies			opt			untitled6.py
+Music			pazartesi		untitled7.py
+PYTHON			s1			untitled8.py
+Pictures		untitled0.py		untitled9.py
+(base) aybenercetin@Ayben-MacBook-Air ~ % git clone git@github.com/aybenercetin/FSWeb-S1G1-Projesi-Web-Development-Projesi-icin-Git.git
+fatal: repository 'git@github.com/aybenercetin/FSWeb-S1G1-Projesi-Web-Development-Projesi-icin-Git.git' does not exist
+(base) aybenercetin@Ayben-MacBook-Air ~ % git clone https://github.com/aybenercetin/FSWeb-S1G1-Projesi-Web-Development-Projesi-icin-Git.git
+Cloning into 'FSWeb-S1G1-Projesi-Web-Development-Projesi-icin-Git'...
+remote: Enumerating objects: 35, done.
+remote: Counting objects: 100% (13/13), done.
+remote: Compressing objects: 100% (9/9), done.
+remote: Total 35 (delta 7), reused 4 (delta 4), pack-reused 22
+Receiving objects: 100% (35/35), 668.46 KiB | 2.61 MiB/s, done.
+Resolving deltas: 100% (10/10), done.
+(base) aybenercetin@Ayben-MacBook-Air ~ % ls
+Applications
+Desktop
+Documents
+Downloads
+FSWeb-S1G1-Projesi-Web-Development-Projesi-icin-Git
+Google Drive
+Library
+Movies
+Music
+PYTHON
+Pictures
+Public
+PycharmProjects
+Untitled.ipynb
+Yandex.Disk.localized
+firstproject
+if elif else
+opt
+pazartesi
+s1
+untitled0.py
+untitled10.py
+untitled11.py
+untitled12.py
+untitled2.py
+untitled3.py
+untitled5.py
+untitled6.py
+untitled7.py
+untitled8.py
+untitled9.py
+(base) aybenercetin@Ayben-MacBook-Air ~ % cd FSWeb-S1G1-Projesi-Web-Development-Projesi-icin-Git
+(base) aybenercetin@Ayben-MacBook-Air FSWeb-S1G1-Projesi-Web-Development-Projesi-icin-Git % fwd     
+zsh: command not found: fwd
+(base) aybenercetin@Ayben-MacBook-Air FSWeb-S1G1-Projesi-Web-Development-Projesi-icin-Git % git checkout -b 'ayben-ercetin'
+Switched to a new branch 'ayben-ercetin'
+(base) aybenercetin@Ayben-MacBook-Air FSWeb-S1G1-Projesi-Web-Development-Projesi-icin-Git %  1)Git, açık kaynak dağıtılmış sürüm kontrol sistemidir. 2)Github, git tabanlı çalışan yazılım projeleri için kar amaçlı cloud hizmetidir. 3)Üzerinde çalıştığımız kaynak kodun bir kopyasını oluşturarak geliştirmelerin orijinal koddan bağımsız olarak ilerlemesini sağlamak için. 4)pull remote tan locale atmak için kullanırız. 5)merge komutunu kullanırım. 6)git merge, çatallanmış bir geçmişi tekrar bir araya getirme yoludur. git pull, remote tan locale folderlarımızı atmak için git fetch, uzaktaki bir deponun dosyalarını, anlık görüntülerini yerel depomuza indiren komuttur. 7)iki kişi aynı dosyayı ve aynı satırı değiştirirse ve git otomatik olarak merge edemezse conflict yani çakışma olur. 8)manuel olarak çözülür. kullanıcının ilk dosyayı açması ve conflict bölümleri bulması gerekir sonra Git'e tekrar dönüp birleştirme işini yapması gerekir.
+
+zsh: parse error near `)'
+(base) aybenercetin@Ayben-MacBook-Air FSWeb-S1G1-Projesi-Web-Development-Projesi-icin-Git % git add sorular.md
+(base) aybenercetin@Ayben-MacBook-Air FSWeb-S1G1-Projesi-Web-Development-Projesi-icin-Git % git commit -m 'Aglayarak kod yazdim'
+On branch ayben-ercetin
+nothing to commit, working tree clean
+(base) aybenercetin@Ayben-MacBook-Air FSWeb-S1G1-Projesi-Web-Development-Projesi-icin-Git % git push -u origin ayben-ercetin
+Username for 'https://github.com': aybenercetin
+Password for 'https://aybenercetin@github.com': 
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for 'https://github.com/aybenercetin/FSWeb-S1G1-Projesi-Web-Development-Projesi-icin-Git.git/'
+(base) aybenercetin@Ayben-MacBook-Air FSWeb-S1G1-Projesi-Web-Development-Projesi-icin-Git % git push -u origin ayben-ercetin
+Username for 'https://github.com': aybenercetin
+Password for 'https://aybenercetin@github.com': 
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/aybenercetin/FSWeb-S1G1-Projesi-Web-Development-Projesi-icin-Git.git/'
+(base) aybenercetin@Ayben-MacBook-Air FSWeb-S1G1-Projesi-Web-Development-Projesi-icin-Git % git push -u origin ayben-ercetin
+Username for 'https://github.com': aybenercetin
+Password for 'https://aybenercetin@github.com': 
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for 'https://github.com/aybenercetin/FSWeb-S1G1-Projesi-Web-Development-Projesi-icin-Git.git/'
+(base) aybenercetin@Ayben-MacBook-Air FSWeb-S1G1-Projesi-Web-Development-Projesi-icin-Git % git commit -a                   
+On branch ayben-ercetin
+nothing to commit, working tree clean
+(base) aybenercetin@Ayben-MacBook-Air FSWeb-S1G1-Projesi-Web-Development-Projesi-icin-Git % git check    
+git: 'check' is not a git command. See 'git --help'.
+
+The most similar command is
+	checkout
+(base) aybenercetin@Ayben-MacBook-Air FSWeb-S1G1-Projesi-Web-Development-Projesi-icin-Git % git --help
+usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           [--super-prefix=<path>] [--config-env=<name>=<envvar>]
+           <command> [<args>]
+
+These are common Git commands used in various situations:
+
+start a working area (see also: git help tutorial)
+   clone     Clone a repository into a new directory
+   init      Create an empty Git repository or reinitialize an existing one
+
+work on the current change (see also: git help everyday)
+   add       Add file contents to the index
+   mv        Move or rename a file, a directory, or a symlink
+   restore   Restore working tree files
+   rm        Remove files from the working tree and from the index
+
+examine the history and state (see also: git help revisions)
+   bisect    Use binary search to find the commit that introduced a bug
+   diff      Show changes between commits, commit and working tree, etc
+   grep      Print lines matching a pattern
+   log       Show commit logs
+   show      Show various types of objects
+   status    Show the working tree status
+
+grow, mark and tweak your common history
+   branch    List, create, or delete branches
+   commit    Record changes to the repository
+   merge     Join two or more development histories together
+   rebase    Reapply commits on top of another base tip
+   reset     Reset current HEAD to the specified state
+   switch    Switch branches
+   tag       Create, list, delete or verify a tag object signed with GPG
+
+collaborate (see also: git help workflows)
+   fetch     Download objects and refs from another repository
+   pull      Fetch from and integrate with another repository or a local branch
+   push      Update remote refs along with associated objects
+
+'git help -a' and 'git help -g' list available subcommands and some
+concept guides. See 'git help <command>' or 'git help <concept>'
+to read about a specific subcommand or concept.
+See 'git help git' for an overview of the system.
+(base) aybenercetin@Ayben-MacBook-Air FSWeb-S1G1-Projesi-Web-Development-Projesi-icin-Git % git psuh -u origin ayben-ercetin
+git: 'psuh' is not a git command. See 'git --help'.
+
+The most similar command is
+	push
+(base) aybenercetin@Ayben-MacBook-Air FSWeb-S1G1-Projesi-Web-Development-Projesi-icin-Git % git push -u origin ayben-ercetin
+Username for 'https://github.com': aybenercetin
+Password for 'https://aybenercetin@github.com': 
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for 'https://github.com/aybenercetin/FSWeb-S1G1-Projesi-Web-Development-Projesi-icin-Git.git/'
+(base) aybenercetin@Ayben-MacBook-Air FSWeb-S1G1-Projesi-Web-Development-Projesi-icin-Git % git push -u origin ayben-ercetin
+Username for 'https://github.com': aybenercetin
+Password for 'https://aybenercetin@github.com': 
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for 'https://github.com/aybenercetin/FSWeb-S1G1-Projesi-Web-Development-Projesi-icin-Git.git/'
+(base) aybenercetin@Ayben-MacBook-Air FSWeb-S1G1-Projesi-Web-Development-Projesi-icin-Git % git push -u origin ayben-ercetin
+Username for 'https://github.com': aybenercetin
+Password for 'https://aybenercetin@github.com': 
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0
+remote: 
+remote: Create a pull request for 'ayben-ercetin' on GitHub by visiting:
+remote:      https://github.com/aybenercetin/FSWeb-S1G1-Projesi-Web-Development-Projesi-icin-Git/pull/new/ayben-ercetin
+remote: 
+To https://github.com/aybenercetin/FSWeb-S1G1-Projesi-Web-Development-Projesi-icin-Git.git
+ * [new branch]      ayben-ercetin -> ayben-ercetin
+branch 'ayben-ercetin' set up to track 'origin/ayben-ercetin'.
+(base) aybenercetin@Ayben-MacBook-Air FSWeb-S1G1-Projesi-Web-Development-Projesi-icin-Git % git add sorular.md
+(base) aybenercetin@Ayben-MacBook-Air FSWeb-S1G1-Projesi-Web-Development-Projesi-icin-Git % git add cevaplar.md
+fatal: pathspec 'cevaplar.md' did not match any files
+(base) aybenercetin@Ayben-MacBook-Air FSWeb-S1G1-Projesi-Web-Development-Projesi-icin-Git % git push -u origin ayben-ercetin 
+branch 'ayben-ercetin' set up to track 'origin/ayben-ercetin'.
+Everything up-to-date
+(base) aybenercetin@Ayben-MacBook-Air FSWeb-S1G1-Projesi-Web-Development-Projesi-icin-Git % git commit -a
+On branch ayben-ercetin
+Your branch is up to date with 'origin/ayben-ercetin'.
+
+nothing to commit, working tree clean
+(base) aybenercetin@Ayben-MacBook-Air FSWeb-S1G1-Projesi-Web-Development-Projesi-icin-Git % git add cevaplar.md
+fatal: pathspec 'cevaplar.md' did not match any files
+(base) aybenercetin@Ayben-MacBook-Air FSWeb-S1G1-Projesi-Web-Development-Projesi-icin-Git % git commit -a cevaplar.md
+fatal: paths 'cevaplar.md ...' with -a does not make sense
+(base) aybenercetin@Ayben-MacBook-Air FSWeb-S1G1-Projesi-Web-Development-Projesi-icin-Git % cd ,
+cd: no such file or directory: ,
+(base) aybenercetin@Ayben-MacBook-Air FSWeb-S1G1-Projesi-Web-Development-Projesi-icin-Git % cd
+(base) aybenercetin@Ayben-MacBook-Air ~ % cd cevaplar.md
+cd: no such file or directory: cevaplar.md
+(base) aybenercetin@Ayben-MacBook-Air ~ % mkdir cevaplar.md
+(base) aybenercetin@Ayben-MacBook-Air ~ % cd cevaplar.md
+(base) aybenercetin@Ayben-MacBook-Air cevaplar.md % pwd
+/Users/aybenercetin/cevaplar.md
+(base) aybenercetin@Ayben-MacBook-Air cevaplar.md % git add cevaplar.md
+fatal: not a git repository (or any of the parent directories): .git
+(base) aybenercetin@Ayben-MacBook-Air cevaplar.md % cd ~/Downloads/
+(base) aybenercetin@Ayben-MacBook-Air Downloads % cd cevaplar.md
+cd: not a directory: cevaplar.md
+(base) aybenercetin@Ayben-MacBook-Air Downloads % mkdir cevaplar.md
+mkdir: cevaplar.md: File exists
+(base) aybenercetin@Ayben-MacBook-Air Downloads % git add cevaplar.md
+fatal: not a git repository (or any of the parent directories): .git
+(base) aybenercetin@Ayben-MacBook-Air Downloads % git add cevaplar.md
+fatal: not a git repository (or any of the parent directories): .git
+(base) aybenercetin@Ayben-MacBook-Air Downloads % git -m 'aglayarak kod yazdim'
+unknown option: -m
+usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           [--super-prefix=<path>] [--config-env=<name>=<envvar>]
+           <command> [<args>]
+(base) aybenercetin@Ayben-MacBook-Air Downloads % git push -u origin ayben-ercetin
+fatal: not a git repository (or any of the parent directories): .git
+(base) aybenercetin@Ayben-MacBook-Air Downloads % git merge
+fatal: not a git repository (or any of the parent directories): .git
+(base) aybenercetin@Ayben-MacBook-Air Downloads % git status
+fatal: not a git repository (or any of the parent directories): .git
+(base) aybenercetin@Ayben-MacBook-Air Downloads % git add cevaplar.md
+fatal: not a git repository (or any of the parent directories): .git
+(base) aybenercetin@Ayben-MacBook-Air Downloads % ls
+02280942-9F63-416A-82BF-1A4F8267A5AB.JPG
+09B9EA4803F34EE09F1D26AA87806430 (1).docx
+09B9EA4803F34EE09F1D26AA87806430 (2).docx
+09B9EA4803F34EE09F1D26AA87806430.docx
+0ACE514B-B41F-41E2-A314-6317CF3E78B1.jpg
+0ba096fa-c89f-4298-9415-6b9fc02dfbfa_f
+0ba096fa-c89f-4298-9415-6b9fc02dfbfa_f.zip
+10360772028.pdf
+10405770576.pdf
+11590383080b877382902f5fcc292eac (1).pptx
+11590383080b877382902f5fcc292eac.pptx
+1CEE90E4-5054-43BC-AC63-2CA7B053EADF.JPG
+1Thomas Calculus 11Ed(Tr) Single.pdf
+2. HAFTA Ebelik Eğitiminin İrdelenmesi-nz.pptx
+2022-08-25_13-09-55 (1).pdf
+2022-12-16_01-16-05.pdf
+2022-12-16_01-20-35.pdf
+25995FD2-7154-4235-A156-85AAF193CC4D.JPG
+2Thomas Calculus 11Ed(Tr) Multi (1).pdf
+2Thomas Calculus 11Ed(Tr) Multi.pdf
+2fa3d27e091f69604222baf7e29e209a-2.pdf
+2fa3d27e091f69604222baf7e29e209a-3.pdf
+2fa3d27e091f69604222baf7e29e209a-4.pdf
+2fa3d27e091f69604222baf7e29e209a-5.pdf
+2fa3d27e091f69604222baf7e29e209a-6.pdf
+2fa3d27e091f69604222baf7e29e209a-7.pdf
+2fa3d27e091f69604222baf7e29e209a-8.pdf
+2fa3d27e091f69604222baf7e29e209a.pdf
+3-2-ARAŞTIRMA TASARIMLARI -2020.pptx
+3-2. Hafta .eğitici özellikleri.pptx
+3. HAFTA NZ EĞİTİMİN FELSEFESİ.pptx
+30778092792.pdf
+30778092792_Ogrenci.pdf
+37be6634-7443-4e2d-8069-f3d671b25b9b.JPG
+38de1ade-7b2d-4188-b9fa-d746e9ae50de_f
+38de1ade-7b2d-4188-b9fa-d746e9ae50de_f.zip
+3d75cdbdc07fcba6be3ad87504756465 (1).pptx
+3d75cdbdc07fcba6be3ad87504756465.pptx
+4. HAFTA EĞİTİMDE TEMEL KAVRAMLAR (1).ppt
+4. HAFTA EĞİTİMDE TEMEL KAVRAMLAR.ppt
+4.3-doğum objesi ile ilgili distosiler.ppt
+4.EĞİTİMDE TEMEL KAVRAMLAR ve EĞİTİMİN İŞLEVLERİ.pptx
+4322aaa4ee8d23ec28cea711ffd3a0b7.pptx
+4a-emekli-aylik-bilgisi.pdf
+4a3421b4729fb02dd17dd4fd91c699e4.pdf
+5. HAFTA GEREKSİNİM BELİRLEME-2018.pptx
+50 Physics Ideas You Really Need to Know ( PDFDrive ) (1).pdf
+50 Physics Ideas You Really Need to Know ( PDFDrive ).pdf
+5781A640-7CAF-452F-9CC1-E400ADE583AB.JPG
+59cb05b8-50ea-4f13-b029-128c3aef10f8_f
+59cb05b8-50ea-4f13-b029-128c3aef10f8_f.zip
+6. Hafta eğitim süreci-planlama.pptx
+6644E692-0F28-4275-8B38-88BDC03755FB.JPG
+6A95416D-E01D-48A2-B580-E0A3EB5F88B0.JPG
+6__Polar_Koordinatlar_Polar_Koordinat_ve_Kartezyen_Koordinat_likisi_.pdf
+7. HAFTA ÖĞRENME KURAMLARI-son.ppt
+7732d392-6bc5-4d6f-b131-ac17c15882b4_f.zip
+7__Polar_Denklemler_Polar_Simetri.pdf
+9fbae64bb634cedf9eb8ca76824a37c5.pptx
+AHUDUDU.jpeg
+Adeko_22.0.21.exe
+Adsız tasarım (1).png
+Adsız tasarım.mp4
+Adsız tasarım.png
+Anaconda3-2021.11-MacOSX-x86_64.pkg
+Ayben Erçetin (1) (1).pdf
+Ayben Erçetin (1).pdf
+Ayben Erçetin.pdf
+BC60CB7C-4828-4239-89FD-3B5BBF42907B (1).html
+BC60CB7C-4828-4239-89FD-3B5BBF42907B.html
+BC60CB7C-4828-4239-89FD-3B5BBF42907B.pdf
+BÖĞÜRTLEN.jpeg
+BUĞDAY.jpeg
+Ben Varım.m4a
+ÇİLEK.jpeg
+D502D8EF-19FE-4E9F-918C-D94C7D737647.JPG
+D8A41010-9593-4418-8803-1606BD52A8C2.JPG
+D956F22E273E4ECA9F715DC66CF6D1FF.doc
+DOMATES.jpeg
+Ders programı yeni.pdf
+DersAlmaListesi-1640268358.pdf
+DersAlmaListesi-1640344753.pdf
+DersAlmaListesi-1640344875.pdf
+DersAlmaListesi-1644481957.pdf
+DersAlmaListesi-1675663585.pdf
+DersAlmaListesi-1690830043.pdf
+Discord.dmg
+DriverEasy_Setup.exe
+ECF00BCD-A5C9-4F75-928A-F7B7C934840E.JPG
+English Study Plan by Çilem Akar.pdf
+F3D828DCB0F74F71AB13F8F0AA85411C (1).docx
+F3D828DCB0F74F71AB13F8F0AA85411C.docx
+FALL 2022-23 B syllabus (1).docx
+FIZIK_2017.pdf
+FIZIK_2017_2019_-30Ingilizce-1.pdf
+FR-0638-Merkezi Yerleştirme Puanına Göre Yatay Geçiş Başvuru Formu.doc
+Firma-Stajyer Sözleşme Kopyası (1).pdf
+Firma-Stajyer Sözleşme Kopyası (2).pdf
+Firma-Stajyer Sözleşme Kopyası.pdf
+Fliqlo 1.8.3.dmg
+GitHub Desktop.app
+GitHubDesktop-x64.zip
+Gülşen - Ne Kavgam Bitti Ne Sevdam.mp4
+I.jpg
+IMG_0796.JPG
+IMG_0797.JPG
+IMG_0798.JPG
+IMG_0799.JPG
+IMG_0800.JPG
+IMG_0801.JPG
+IMG_0802.JPG
+IMG_0803.JPG
+IMG_0804.JPG
+IMG_0805.JPG
+IMG_0806.JPG
+IMG_0868.JPG
+IMG_0869.JPG
+IMG_0870.JPG
+IMG_0871.JPG
+IMG_0872.JPG
+IMG_0873.JPG
+IMG_0874.JPG
+IMG_0875.JPG
+IMG_0876.JPG
+IMG_0877.JPG
+IMG_0931.PNG
+IMG_1055.jpg
+IMG_1089.jpg
+IMG_1102.JPG
+IMG_1105.JPG
+IMG_1107.JPG
+IMG_1130.JPG
+IMG_1134.JPG
+IMG_1135.JPG
+IMG_1136.JPG
+IMG_1137.JPG
+IMG_1138.JPG
+IMG_1139.JPG
+IMG_1140.JPG
+IMG_1141.JPG
+IMG_1144.JPG
+IMG_1148.JPG
+IMG_1149.JPG
+IMG_1150.JPG
+IMG_1151.JPG
+IMG_1172.jpg
+IMG_1330.HEIC
+IMG_2087.JPG
+IMG_2088.JPG
+IMG_2094.JPG
+IMG_2095.JPG
+IMG_2096.JPG
+IMG_2097.JPG
+IMG_2098.JPG
+IMG_2141.JPG
+IMG_2176.jpg
+IMG_2176.pdf
+IMG_2329.JPG
+IMG_2330.JPG
+IMG_2331.JPG
+IMG_2332.JPG
+IMG_2333.JPG
+IMG_2334.JPG
+IMG_2335.JPG
+IMG_2336.JPG
+IMG_2337.JPG
+IMG_2338.JPG
+IMG_2340.JPG
+IMG_2341.JPG
+IMG_2342.JPG
+IMG_2343.JPG
+IMG_2344.JPG
+IMG_2345.JPG
+IMG_2346.JPG
+IMG_2470.PNG
+IMG_2471.PNG
+IMG_2472.PNG
+IMG_2473.PNG
+IMG_2474.PNG
+IMG_2475.PNG
+IMG_2476.PNG
+IMG_2477.PNG
+IMG_2478.PNG
+IMG_2479.PNG
+IMG_2480.PNG
+IMG_2481.PNG
+IMG_2482.PNG
+IMG_2483.PNG
+IMG_2484.PNG
+IMG_2485.PNG
+IMG_2486.PNG
+IMG_3354.HEIC
+IMG_3448.JPG
+IMG_3449.JPG
+IMG_3450.JPG
+IMG_3451.JPG
+IMG_3452.JPG
+IMG_3453.JPG
+IMG_3454.JPG
+IMG_3455.JPG
+IMG_3456.JPG
+IMG_3466 2.JPG
+IMG_3466.JPG
+IMG_3528.JPG
+IMG_3529.JPG
+IMG_3530.JPG
+IMG_3531.JPG
+IMG_3532.JPG
+IMG_3536.JPG
+IMG_3537.JPG
+IMG_3539.JPG
+IMG_3540.JPG
+IMG_3541.JPG
+IMG_3542.JPG
+IMG_3543.JPG
+IMG_3544.JPG
+IMG_3545.JPG
+IMG_3546.JPG
+IMG_3547.JPG
+IMG_3548.JPG
+IMG_3549.JPG
+IMG_3550.JPG
+IMG_3551.JPG
+IMG_3571.JPG
+IMG_3572.JPG
+IMG_3573.JPG
+IMG_3574.JPG
+IMG_3575.JPG
+IMG_3576.JPG
+IMG_3577.JPG
+IMG_3578.JPG
+IMG_3579.JPG
+IMG_3580.JPG
+IMG_3581.JPG
+IMG_3582.JPG
+IMG_3583.JPG
+IMG_3584.JPG
+IMG_3634.JPG
+IMG_3635.JPG
+IMG_3636.JPG
+IMG_3637.JPG
+IMG_3638.JPG
+IMG_3639.JPG
+IMG_3640.JPG
+IMG_3641.JPG
+IMG_3642.JPG
+IMG_3643.JPG
+IMG_3644.JPG
+IMG_3666.PNG
+IMG_3667.PNG
+IMG_3668.PNG
+IMG_3669.PNG
+IMG_3670.PNG
+IMG_3671.PNG
+IMG_3672.PNG
+IMG_3673.PNG
+IMG_3674.PNG
+IMG_3675.PNG
+IMG_3676.PNG
+IMG_3693.JPG
+IMG_3694.JPG
+IMG_3696.JPG
+IMG_3697.JPG
+IMG_3698.JPG
+IMG_3699.JPG
+IMG_3700.JPG
+IMG_3701.JPG
+IMG_3703.JPG
+IMG_3733.JPG
+IMG_3734.JPG
+IMG_3865.JPG
+IMG_3866.JPG
+IMG_3867.JPG
+IMG_3868.JPG
+IMG_3869.JPG
+IMG_3870.JPG
+IMG_3871.JPG
+IMG_3872.JPG
+IMG_3873.JPG
+IMG_3874.JPG
+IMG_3875.JPG
+IMG_3876.JPG
+IMG_4162.HEIC
+IMG_4162.pdf
+IMG_4650.PNG
+IMG_4771.JPG
+IMG_4772.JPG
+IMG_4813.JPG
+IMG_4814.JPG
+IMG_4845.JPG
+IMG_4846 copy.JPG
+IMG_4846.JPG
+IMG_4847.JPG
+IMG_4885.JPG
+IMG_4907.JPG
+IMG_4985.JPG
+IMG_4986.JPG
+IMG_4987.JPG
+IMG_4988.JPG
+IMG_4989.JPG
+IMG_4990.JPG
+IMG_4991.JPG
+IMG_4992.JPG
+IMG_4993.JPG
+IMG_4994.JPG
+IMG_4995.JPG
+IMG_4996.JPG
+IMG_4997.JPG
+IMG_4998.JPG
+IMG_4999.JPG
+IMG_5020.JPG
+IMG_5021.JPG
+IMG_5121.JPG
+IMG_5162.PNG
+IMG_5240.JPG
+IMG_5710.PNG
+IMG_5711.PNG
+IMG_5712.PNG
+IMG_5713.PNG
+IMG_5714.PNG
+IMG_5715.PNG
+IMG_5716.PNG
+IMG_5717.PNG
+IMG_5718.PNG
+IMG_5719.PNG
+IMG_5720.PNG
+IMG_5721.PNG
+IMG_5722.PNG
+IMG_5723.PNG
+IMG_5724.PNG
+IMG_5725.PNG
+IMG_5726.PNG
+IMG_5727.PNG
+IMG_5728.PNG
+IMG_5729.PNG
+IMG_5730.PNG
+IMG_5731.PNG
+IMG_5732.PNG
+IMG_5733.PNG
+IMG_5734.PNG
+IMG_5735.PNG
+IMG_5736.PNG
+IMG_5737.PNG
+IMG_5738.PNG
+IMG_5739.PNG
+IMG_5813.JPG
+IMG_5814.JPG
+IMG_5852.PNG
+IMG_5853.PNG
+IMG_5854.PNG
+IMG_5855.PNG
+IMG_5856.PNG
+IMG_5857.PNG
+IMG_5858.PNG
+IMG_5859.PNG
+IMG_5860.PNG
+IMG_5861.PNG
+IMG_5862.PNG
+IMG_5947.JPG
+IMG_5962.JPG
+IMG_5991.JPG
+IMG_6009.JPG
+IMG_6037.JPG
+IMG_6100.JPG
+IMG_6178.PNG
+IMG_6179.PNG
+IMG_6191.PNG
+IMG_6204.JPG
+IMG_6207.JPG
+IMG_6208.PNG
+IMG_6227.JPG
+IMG_6231.JPG
+IMG_6259.JPG
+IMG_6321.JPG
+IMG_6345.JPG
+IMG_6358.JPG
+IMG_6373.JPG
+IMG_6404.JPG
+IMG_6438.JPG
+IMG_6439.JPG
+IMG_6445.JPG
+IMG_6446.JPG
+IMG_6447.JPG
+IMG_6506.JPG
+IMG_6507.JPG
+IMG_6560.JPG
+IMG_6638.JPG
+IMG_6645.JPG
+IMG_6646.JPG
+IMG_6647.JPG
+IMG_6673.JPG
+IMG_6696.PNG
+IMG_6714.PNG
+IMG_6736.JPG
+IMG_6765.JPG
+IMG_6792.JPG
+IMG_6809.JPG
+IMG_6810.JPG
+IMG_6811.JPG
+IMG_6812.JPG
+IMG_6813.JPG
+IMG_6814.JPG
+IMG_6815.JPG
+IMG_6816.JPG
+IMG_6817.JPG
+IMG_6820.JPG
+IMG_6821.JPG
+IMG_6822.JPG
+IMG_6823.JPG
+IMG_6824.JPG
+IMG_6887.JPG
+IMG_6889.JPG
+IMG_6914.PNG
+IMG_6922.JPG
+IMG_6923.JPG
+IMG_6939.JPG
+IMG_6940.JPG
+IMG_6943.JPG
+IMG_6944.JPG
+IMG_6945.JPG
+IMG_6946.JPG
+IMG_6948.JPG
+IMG_6952.JPG
+IMG_6958.JPG
+IMG_7017.JPG
+IMG_7018.JPG
+IMG_7052.JPG
+IMG_7063.JPG
+IMG_7064.JPG
+IMG_7069.JPG
+IMG_7071.JPG
+IMG_7072.JPG
+IMG_7073.JPG
+IMG_7074.JPG
+IMG_7075.JPG
+IMG_7084.JPG
+IMG_7092.JPG
+IMG_7099.PNG
+IMG_7111.JPG
+IMG_7112.JPG
+IMG_7113.JPG
+IMG_7114.JPG
+IMG_7116.JPG
+IMG_7117.JPG
+IMG_7118.JPG
+IMG_7122.JPG
+IMG_7123.JPG
+IMG_7128.JPG
+IMG_7129.JPG
+IMG_7130.JPG
+IMG_7134.JPG
+IMG_7136.JPG
+IMG_7137.JPG
+IMG_7138.JPG
+IMG_7139.JPG
+IMG_7140.JPG
+IMG_7141.JPG
+IMG_7142.JPG
+IMG_7143.jpg
+IMG_7144.PNG
+IMG_7181.JPG
+IMG_7183.JPG
+IMG_7185.JPG
+IMG_7208.PNG
+IMG_7251.jpg
+IMG_7255.jpg
+IMG_7258.JPG
+IMG_7259.PNG
+IMG_7261.JPG
+IMG_7271.JPG
+IMG_7283.JPG
+IMG_7284.JPG
+IMG_7285.JPG
+IMG_7294.JPG
+IMG_7296.JPG
+IMG_7299.JPG
+IMG_7302.JPG
+IMG_7303.JPG
+IMG_7323.JPG
+IMG_7331.JPG
+IMG_7362.JPG
+IMG_7363.JPG
+IMG_7368.JPG
+IMG_7369.JPG
+IMG_7370.JPG
+IMG_7382.JPG
+IMG_7396.JPG
+IMG_7431.JPG
+IMG_7436.JPG
+IMG_7437.JPG
+IMG_7493.JPG
+IMG_7540.JPG
+IMG_7541.JPG
+IMG_7565.JPG
+IMG_7570.JPG
+IMG_7588.JPG
+IMG_7599.JPG
+IMG_7601.JPG
+IMG_7610.JPG
+IMG_7612.JPG
+IMG_7613.JPG
+IMG_7637.JPG
+IMG_7649.JPG
+IMG_7650.JPG
+IMG_7674.JPG
+IMG_7733.JPG
+IMG_7735.JPG
+IMG_7736.JPG
+IMG_7739.JPG
+IMG_7795.JPG
+IMG_7801.JPG
+IMG_7802.JPG
+IMG_7803.JPG
+IMG_7808.JPG
+IMG_7836.JPG
+IMG_7841.JPG
+IMG_7843.HEIC
+IMG_7843.jpg
+IMG_7844.HEIC
+IMG_7844.jpg
+IMG_7845 (1).jpg
+IMG_7845.HEIC
+IMG_7845.JPG
+IMG_7846 (1).jpg
+IMG_7846.HEIC
+IMG_7846.JPG
+IMG_7847.HEIC
+IMG_7847.jpg
+IMG_7850.JPG
+IMG_7851.JPG
+IMG_7853.JPG
+IMG_7913.PNG
+IMG_7932.jpg
+IMG_7954.JPG
+IMG_7978.JPG
+IMG_7980.JPG
+IMG_7983.JPG
+IMG_8039.JPG
+IMG_8049.JPG
+IMG_8059.JPG
+IMG_8060.JPG
+IMG_8062.JPG
+IMG_8064.JPG
+IMG_8079.JPG
+IMG_8080.JPG
+IMG_8098.JPG
+IMG_8115.JPG
+IMG_8119.JPG
+IMG_8120.JPG
+IMG_8121.JPG
+IMG_8122.JPG
+IMG_8123.JPG
+IMG_8130.JPG
+IMG_8131.JPG
+IMG_8139.jpg
+IMG_8157.JPG
+IMG_8172.PNG
+IMG_8173.JPG
+IMG_8174.JPG
+IMG_8175.JPG
+IMG_8176.JPG
+IMG_8177.JPG
+IMG_8204.JPG
+IMG_8217.PNG
+IMG_8220.jpg
+IMG_8221.jpg
+IMG_8222.JPG
+IMG_8237.JPG
+IMG_8238.JPG
+IMG_8264.JPG
+IMG_8274.JPG
+IMG_8275.JPG
+IMG_8276.JPG
+IMG_8277.JPG
+IMG_8283.JPG
+IMG_8339.JPG
+IMG_8375.JPG
+IMG_8383.JPG
+IMG_8411.JPG
+IMG_8412.JPG
+IMG_8415.JPG
+IMG_8416.JPG
+IMG_8419.JPG
+IMG_8420.JPG
+IMG_8421.JPG
+IMG_8422.PNG
+IMG_8426.PNG
+IMG_8427.PNG
+IMG_8428.PNG
+IMG_8429.PNG
+IMG_8430.PNG
+IMG_8431.PNG
+IMG_8432.PNG
+IMG_8433.PNG
+IMG_8434.PNG
+IMG_8435.PNG
+IMG_8495.JPG
+IMG_8496.JPG
+IMG_8503.JPG
+IMG_8513.JPG
+IMG_8520.JPG
+IMG_8527.PNG
+IMG_8539.PNG
+IMG_8540.PNG
+IMG_8541.PNG
+IMG_8570.JPG
+IMG_8643.JPG
+IMG_8644.JPG
+IMG_8810.jpg
+IMG_8811.jpg
+IMG_8BE02786A857-1.jpeg
+IMG_9030.jpg
+IMG_9545.PNG
+IMG_9546.PNG
+IMG_9547.PNG
+IMG_9548.PNG
+KAHVE.jpeg
+KESEOTU.webp
+KYKYurttaBarinmaBelgesi.pdf
+LAHANA.jpeg
+LisansProgramWeb_2013.docx
+MELİKE FOTO.jpeg
+MİKK.jpeg
+MİKRO.jpeg
+MÜKREMİN SEZER- 
+MÜKREMİN-RIFAT
+ModernPhysics.pdf
+Modern_Physics_Kenneth_Krane (1).pdf
+Modern_Physics_Kenneth_Krane.pdf
+MİKROSKOP (1).pdf
+MİKROSKOP.pdf
+Notion-2.0.20-arm64.dmg
+OKTAY KARAKAŞ-AYDINOĞLU
+OKÜLER.jpeg
+OPTIK_CALISMA_ KITAPÇIĞI.pdf
+Opera Yükleyici.app
+OperaSetup.zip
+ÖSYM Aday İşlemleri Sistemi - Sınav Başvuru Kayıt Bilgileri.pdf
+PEER REVISION for 2D IN CLASS WRITING.docx
+PP Self-Introduction(1).pptx
+Paralel RLC
+Paralel RLC (extract.me).zip
+Paralel RLC.rar
+Reader2017Setup_x86.msi
+SIMPLE PRESENT AND PRESENT CONTINUOUS TENSES 2022-2023 (1).docx
+SU.jpeg
+Sana Ne Kime Ne.mp4
+Screen Shot 2022-10-11 at 13.45.47.png
+Serdar Ortaç - Ben Adam Olmam  (Official Video).mp4
+Seri RLC.rar
+Skype-8.93.0.404.dmg
+Skype-8.95.0.408.dmg
+Socialhunters - Watch Instagram Story Anonymously_1.35_apkcombo.com.xapk
+Spyder_64bit_full.exe
+StajSirketler.xlsx
+Staj_Bilgileri_Özet_Tablosu.xlsx
+Student_Solutions_Manual_for_Modern_Phys.pdf
+ŞAMPANYA.jpeg
+TEKİLA.jpeg
+TUZ VE KARABİBER.jpeg
+Teams_osx (1).pkg
+Teams_osx.pkg
+TemMUZ.docx
+The Universe_ 50 Ideas You Really Need to Know ( PDFDrive ).pdf
+Transkript-NotKartı-0402190081-1673367859.pdf
+UNN.jpeg
+UmmyVD.dmg
+Uygulama Soruları.pdf
+ÜZÜM.jpeg
+VERGİ LEVHASI.pdf
+VSCode-darwin-universal.zip
+Visual Studio Code.app
+WRITING PORTFOLIO 1- Draft 1 SILA ERÇETİN.pdf
+WRITING TASK 2 (2).docx
+WRITING TASK 2.docx
+What time is it.ppsx
+WhatsApp Image 2022-10-16 at 18.07.33 (1).jpeg
+WhatsApp Image 2022-10-16 at 18.07.33 (1).pdf
+WhatsApp Image 2022-10-16 at 18.07.33 (2).pdf
+WhatsApp Image 2022-10-16 at 18.07.33.jpeg
+WhatsApp Image 2022-10-16 at 18.07.33.pdf
+WhatsApp Image 2022-10-27 at 19.49.57.jpeg
+WhatsApp Image 2022-10-27 at 19.49.58.jpeg
+WhatsApp Image 2023-01-02 at 18.34.07.jpeg
+Y2dl.com_90'lar_Türkçe_Pop_Mix_-_90'lar_(2000'ler)Türkçe_Pop_En_iyileri(Lyrics).mp3
+Y2dl.com_Adamım.mp3
+Y2dl.com_Aldırma_Deli_Gönlüm.mp3
+Y2dl.com_Asrın_Hatası.mp3
+Y2dl.com_Ateşteyim.mp3
+Y2dl.com_Ay_İnanmıyorum.mp3
+Y2dl.com_Aşk_Eski_Bir_Yalan.mp3
+Y2dl.com_Ben_Tabii_Ki.mp3
+Y2dl.com_Bengü_-_Korkma_Kalbim.mp3
+Y2dl.com_Bi_Seni_Konuşurum.mp3
+Y2dl.com_Bir_Bakmışsın.mp3
+Y2dl.com_Candan_Erçetin_-_Umrumda_Değil.mp3
+Y2dl.com_Demet_Akalın_-_Afedersin.mp3
+Y2dl.com_Demet_Sağıroğlu_-_Arnavut_Kaldırımı.mp3
+Y2dl.com_Ebru_Gündeş_-_Yaparım_Bilirsin.mp3
+Y2dl.com_Erkin_Koray_-_Çöpçüler.mp3
+Y2dl.com_Eşşeği_Saldım.mp3
+Y2dl.com_Gül_Döktüm_Yollarına.mp3
+Y2dl.com_Harun_Kolçak_-_Gir_Kanıma_(Official_Video).mp3
+Y2dl.com_Hovarda.mp3
+Y2dl.com_Kimler_Geldi_Kimler_Geçti.mp3
+Y2dl.com_Kıraç_-_Çayır_Çimen_Geze_Geze_(Official_Audio).mp3
+Y2dl.com_Melike_Şahin_-_Diva_Yorgun_(sözleri_-_lyrics).mp3
+Y2dl.com_Meyhaneci.mp3
+Y2dl.com_Mustafa_Sandal_-_Araba.mp3
+Y2dl.com_Reyhan_Karaca_-_Sevdik_Sevdalandık.mp3
+Y2dl.com_Rober_Hatemo_-_Senden_Çok_Var_(Official_Video).mp3
+Y2dl.com_Sana_Ne_Kime_Ne.mp3
+Y2dl.com_Serdar_Ortaç_-_Ben_Adam_Olmam_(Official_Video).mp3
+Y2dl.com_Serdar_Ortaç_-_Dansöz.mp3
+Y2dl.com_Serdar_Ortaç_-_Mesafe.mp3
+Y2dl.com_Sertab_Erener_-_Kendime_Yeni_Bir_Ben_Lazim_(Orjinal).mp3
+Y2dl.com_Sevme_Zamanı.mp3
+Y2dl.com_Sezen_Aksu_-_Onu_Alma_Beni_Al_(Official_Video).mp3
+Y2dl.com_Sezen_Aksu_-_Seni_Yerler_(Official_Video).mp3
+Y2dl.com_Sezen_Aksu_-_Şanıma_İnanma_(Lyrics___Şarkı_Sözleri).mp3
+Y2dl.com_Sezen_Aksu_-_Zalim_(Official_Audio).mp3
+Y2dl.com_Sezen_Aksu_-_Şinanay_(Official_Video).mp3
+Y2dl.com_Süpriz.mp3
+Y2dl.com_TARKAN_-_Dudu.mp3
+Y2dl.com_Zor_Kadın.mp3
+Y2dl.com_Çalkala.mp3
+Y2dl.com_Öyle_Bir_Geçer.mp3
+Y2dl.com_Özdemir_Erdoğan_-_Gurbet_(1972).mp3
+YTÜ 2023-2024 Eğitim-Öğretim Yılı Lisans Kontenjanları.xlsx
+Yandex.Disk.dmg
+Zoom (1).pkg
+Zoom (2).pkg
+Zoom.pkg
+a246c38755f035c9e22ea3a12b6835d6 (1).pptx
+a246c38755f035c9e22ea3a12b6835d6.pptx
+a26e73b0e7dfc952b5b36b7c37d69802.pptx
+ablasyon.jpeg
+accessruntime_4288-1001_x64_tr-tr.exe
+aybencv (1).pdf
+aybencv (2).pdf
+aybencv (3).pdf
+aybencv.pdf
+aybncv.pdf
+ayyy.jpeg
+ayyyy.jpeg
+b2d47fe6be90a43f6c6e0f231ee87917.pptx
+ben.jpeg
+bff3806a-d4ab-4cdb-a24a-c0ae675168ac_f
+bff3806a-d4ab-4cdb-a24a-c0ae675168ac_f.zip
+bilmiyorum.pdf
+bukim.jpg
+buseferdogruaybeneatiyorum.zip
+cal3.pdf
+calculus1.hafta-1.pdf
+calculus1.hafta-uyg.pdf
+calculus1.pdf
+calculus10.hafta-1.pdf
+calculus10.pdf
+calculus11.hafta-1.pdf
+calculus11.hafta-uyg.pdf
+calculus11.pdf
+calculus12.hafta-1.pdf
+calculus12.hafta-uyg.pdf
+calculus13.hafta-uyg.pdf
+calculus14.hafta-uyg.pdf
+calculus2.hafta-1.pdf
+calculus2.hafta-uyg.pdf
+calculus2.pdf
+calculus3.hafta-1.pdf
+calculus3.hafta-uyg.pdf
+calculus3.pdf
+calculus4.hafta-1.pdf
+calculus4.hafta-uyg.pdf
+calculus4.pdf
+calculus5.hafta-1.pdf
+calculus5.hafta-uyg.pdf
+calculus5.pdf
+calculus55.pdf
+calculus6.hafta-1.pdf
+calculus6.hafta-uyg.pdf
+calculus6.pdf
+calculus7.hafta.pdf
+calculus7.pdf
+calculus8.hafta-1.pdf
+calculus8.pdf
+calculus9.hafta-1.pdf
+calculus9.hafta-uyg.pdf
+calculus9.pdf
+calculussss.pdf
+calculusvize.pdf
+calculusvizecozum.pdf
+cancer.jpeg
+ce74512b-4397-492c-85c5-d716288954c3_f.zip
+cevaplar.md
+cirkin.jpeg
+cirkin.pdf
+covid-19_ek-sinav-basvuru-formu.pdf
+cvicin.JPG
+çamaşır mak. fatura (1).pdf
+çamaşır mak. fatura.pdf
+d0afe981fa5f3e861e19246eaba3a0c1-10.pdf
+d0afe981fa5f3e861e19246eaba3a0c1-11.pdf
+d0afe981fa5f3e861e19246eaba3a0c1-12.pdf
+d0afe981fa5f3e861e19246eaba3a0c1-2.pdf
+d0afe981fa5f3e861e19246eaba3a0c1-3.pdf
+d0afe981fa5f3e861e19246eaba3a0c1-4.pdf
+d0afe981fa5f3e861e19246eaba3a0c1-5.pdf
+d0afe981fa5f3e861e19246eaba3a0c1-6.pdf
+d0afe981fa5f3e861e19246eaba3a0c1-7.pdf
+d0afe981fa5f3e861e19246eaba3a0c1-8.pdf
+d0afe981fa5f3e861e19246eaba3a0c1-9.pdf
+d0afe981fa5f3e861e19246eaba3a0c1.pdf
+d30433e49a2b1737a8d996cb177284ef.pptx
+d3739771-1fc5-479f-91fb-1c269de9e88e_f
+d3739771-1fc5-479f-91fb-1c269de9e88e_f.zip
+describing a person.docx
+di.jpeg
+dii.jpeg
+disp.pdf
+dua.jpeg
+e8fb4e73462401cf9bfe62ac01cf4904.pdf
+earsiv.pdf
+ed8aaf53-6fdb-4f8e-abae-33a097b08e7a_f.zip
+ee1.jpg
+ee1.pdf
+ee2.jpg
+ee3-1.jpg
+ee3-2.jpg
+ee3-3.jpg
+ee4.jpg
+elektr1-1.jpg
+elektr1-1.pdf
+elektr1-2.jpg
+elektr1-3.jpg
+elektr2.jpg
+elektr3-1.jpg
+elektr3-2.jpg
+elektr4-1.jpg
+elektr4-2.jpg
+elektr5.jpg
+elektronik-but.pdf
+elektronik-final.pdf
+eylüll.docx
+fatura.pdf
+fbh1-1.jpg
+fbh1-2.jpg
+fbh1.jpg
+fbh2-1.jpg
+fbh2-2.jpg
+fbh3-1.jpg
+fbh3-2.jpg
+fbh3-3.jpg
+fbh3-4.jpg
+fbh3-5.jpg
+fbh3.jpg
+fe50bdfd-d5dd-4878-93d0-d5d56ac99d69_f
+fe50bdfd-d5dd-4878-93d0-d5d56ac99d69_f.zip
+fi.jpeg
+fii.jpeg
+files-WhatsApp.dmg
+fizik-lab-3.pdf
+fizik0.pdf
+fizik1 (1).pdf
+fizik1.jpg
+fizik1.pdf
+fizik10.jpg
+fizik10.pdf
+fizik11.jpg
+fizik12.jpg
+fizik13.jpg
+fizik14.jpg
+fizik15.jpg
+fizik16.jpg
+fizik17.jpg
+fizik18.jpg
+fizik19.jpg
+fizik2.jpg
+fizik2.pdf
+fizik20.jpg
+fizik21.jpg
+fizik22.jpg
+fizik3-2-.jpg
+fizik3-3-.jpg
+fizik3.jpg
+fizik3.pdf
+fizik3.pptx
+fizik33.pptx
+fizik333.pptx
+fizik3333.pptx
+fizik33333.pptx
+fizik4-1.jpg
+fizik4-2.jpg
+fizik4.jpg
+fizik4.pdf
+fizik5.jpg
+fizik5.pdf
+fizik6.jpg
+fizik6.pdf
+fizik7.jpg
+fizik7.pdf
+fizik8.jpg
+fizik8.pdf
+fizik9.jpg
+fizik9.pdf
+fizikfinal.jpeg
+fizikfinal2.jpeg
+fizikfinal3.jpeg
+fiziklll-1.pdf
+fiziklll-2.pdf
+fiziklll-3.pdf
+fizikte modelleme ve simülasyon- türev integral.pdf
+fizikte modelleme ve simülasyon.pdf
+fmm-final.pdf
+fmm1-1.jpg
+fmm1-1.pdf
+fmm1-2.jpg
+fmm1-3.jpg
+fmm1.jpg
+fmm2-1.jpg
+fmm2-2.jpg
+fmm2-3.jpg
+fmm3-1.jpg
+fmm3-2.jpg
+fmm3.jpg
+fmm4.jpg
+fzk1-1.jpg
+fzk1-2.jpg
+fzk2-1.jpg
+fzk2-2.jpg
+fzk3-1.jpg
+fzk3-2.jpg
+fzk3-3.jpg
+fzk4-1.jpg
+fzk4-2.jpg
+fzk4-3.jpg
+fzk5-1.jpg
+fzk5-2.jpg
+fzk5-3.jpg
+gelir.pdf
+geo1.jpg
+geo2.jpg
+geo3.jpg
+geo4.jpg
+geo5.jpg
+ideaIC-2021.3.3.dmg
+ikametgah.pdf
+ilovepdf_merged (1).pdf
+ilovepdf_merged (2).pdf
+ilovepdf_merged (3).pdf
+installGitKraken.dmg
+isbank.JPG
+istakart.jpg
+istkart.jpg
+ivona stj. .pdf
+ivona-sözleşme.pdf
+jdk-18.jdk
+jdk-18.jdk 2
+jdk-18_macos-aarch64_bin.dmg
+jdk-18_macos-aarch64_bin.tar.gz
+kanser grafik.png
+kanser-final.pdf
+kanser.jpeg
+kanser.pdf
+kemo.jpeg
+kimlkfoto.jpg
+klima fatura (1).pdf
+klima fatura.pdf
+lab1-2.jpg
+lab1-3.jpg
+lab1.jpg
+lab2-1.jpg
+lab2.jpg
+lab3-1.jpg
+lab3.jpg
+lab4-1.jpg
+lab4.jpg
+labb1-1.jpg
+labb1-1.pdf
+labb1-2.jpg
+labb2-1.jpg
+labb2-2.jpg
+labb2-3.jpg
+labb3-1.jpg
+labb3-2.jpg
+labb4.jpg
+laser-1-1.jpg
+laser-1-1.pdf
+laser-1-2.jpg
+laser-1-3.jpg
+laser-1-4.jpg
+laser-1-5.jpg
+laser-1-6.jpg
+laser-2-1.jpg
+laser-2-2.jpg
+laser-2-3.jpg
+laser-2-4.jpg
+laser-2-5.jpg
+laser-2-6.jpg
+laser-2-7.jpg
+laser-3-1.jpg
+laser-3-2.jpg
+laser-4-1.jpg
+laser-4-2.jpg
+laser-final.pdf
+laser.pdf
+laser1-1.jpg
+laser1-1.pdf
+laser1-2.jpg
+laser1-3.jpg
+laser2.jpg
+laser3.jpg
+laser4-1.jpg
+laser4-2.jpg
+laser5.jpg
+lazer.pdf
+lazer1.ppt
+matbaa.jpeg
+matlab_R2021a_maci64
+matlab_R2021a_maci64.dmg
+matlab_R2021a_maci64.dmg.zip
+melike kimlik (1).pdf
+melike kimlik.pdf
+memekanseri.pdf
+nevin tablo.docx
+node-v18.17.1.pkg
+nufus-kayit-ornegi.pdf
+ogrbelge.pdf
+ogrenciBelgesi_79679f6265f14ca48d74dccca45d3269.pdf
+ogrenciBelgesi_a74687a3758c41279589a5be0d4ca965.pdf
+optik2.jpg
+optik3a.jpg
+optik3b1.jpg
+optik3b2.jpg
+p1.jpg
+p1.pdf
+p10-1.jpg
+p10-2.jpg
+p11-1.jpg
+p11-2.jpg
+p12-1.jpg
+p12-2.jpg
+p13-1.jpg
+p13-2.jpg
+p14-1.jpg
+p14-2.jpg
+p14-3.jpg
+p15.jpg
+p16-1.jpg
+p16-2.jpg
+p2.jpg
+p3.jpg
+p4.jpg
+p5-1.jpg
+p5-2.jpg
+p6-1.jpg
+p6-2.jpg
+p7.jpg
+p8.jpg
+p9.jpg
+physics4-final.pdf
+postpartum ruhsal değişimler.pptx
+py1-1.jpg
+py1-2.jpg
+py1-3.jpg
+py11.jpg
+py2-1.jpg
+py2-2.jpg
+py2-3.jpg
+py3.jpg
+py4-1.jpg
+py4-2.jpg
+py51.jpg
+py52.jpg
+pycharm-community-2022.1.3 (1).exe
+pycharm-community-2022.1.3.exe
+pycharm-professional-2021.3.3 (1).dmg
+pycharm-professional-2021.3.3.dmg
+pycharm-professional-2023.2-aarch64.dmg
+pycharm-professional-2023.2.exe
+python-3.10.4-macos11 (1).pkg
+python-3.10.4-macos11 (2).pkg
+python-3.10.4-macos11 (3).pkg
+python-3.10.4-macos11 (4).pkg
+python-3.10.4-macos11.pkg
+python-3.11.0a7-macos11.pkg
+pythonProgramlama
+pythonProgramlama (1).zip
+pythonProgramlama 2
+pythonProgramlama 3
+pythonProgramlama-221120-110856.zip
+pythonProgramlama.zip
+radon.jpeg
+radyoterapi.jpeg
+report (1).pdf
+report.pdf
+rts-1.pdf
+rts-2.pdf
+rts-3.pdf
+rts-4.pdf
+rts-5.pdf
+rts-6.pdf
+rts-7.pdf
+rts-8.pdf
+ru.iiec.pydroid3_2021-10-24.apk
+sgkayben.pdf
+sgkbaba.pdf
+sgknevin.pdf
+sgksila.pdf
+sgktescilbaba.pdf
+sig.jpeg
+sigara.jpeg
+silakimlik.jpg
+silakimlik.pdf
+site.jpeg
+site10.jpeg
+site11.jpeg
+site13.jpeg
+site2.jpeg
+site3.jpeg
+site4.jpeg
+site5.jpeg
+site6.jpeg
+site7.jpeg
+site8.jpeg
+site9.jpeg
+sitekapak.jpeg
+siteözel.jpeg
+siteşezlong.jpeg
+skar.webp
+skgtescilnevin.pdf
+socialhunters.app_1.35_apkgk.com
+socialhunters.app_1.35_apkgk.com.zip
+sodapdf-converted (1).pdf
+sodapdf-converted (2).pdf
+sodapdf-converted (3).pdf
+sodapdf-converted (4).pdf
+sodapdf-converted (5).pdf
+sodapdf-converted.pdf
+sosyal-guvenlik-kayit-belgesi.pdf
+steam.dmg
+surucu-raporu-beyan-basvurusu.pdf
+tanı.jpeg
+tapuu (1).pdf
+tapuu (2).pdf
+tapuu.jpeg
+tapuu.pdf
+tapuu2.jpeg
+temel fizik lab-1.pdf
+toygar.pdf
+toyy.jpeg
+transkript.pdf
+twitter_Kr3ZlQVY.jpg
+twitter_ivU4XUFp.jpg
+umut.pdf
+univeRSitY_PHYSiCS_WitH_moDeRn_PHYSiCS_1.pdf
+vergi levhası.jpeg
+vergii.pdf
+veritabanı-1.jpg
+veritabanı-1.pdf
+veritabanı-2-1.jpg
+veritabanı-2-2.jpg
+veritabanı-3.jpg
+veritabanı-4.jpg
+veritabanı-5.jpg
+veritabanı-final.pdf
+veritabanımidterm.pdf
+verrrr.jpeg
+verrrr.pdf
+vukuatayben.pdf
+vukuatsila.pdf
+wallpaper.png
+wallpaper2.jpeg
+wallpaper3.jpeg
+word_list_ENGLISH FILE PRE-INTERMEDIATE.pdf
+y2meta.com - Barış Manço - Yaz Dostum _ TRT Arşiv(360p).mp4
+y2meta.com - Reyhan Karaca - Sevdik Sevdalandık(360p).mp4
+y2meta.com - Serdar Ortaç - Poşet(360p).mp4
+y2meta.com-Aşkın Nur Yengi - Ay İnanmıyorum (1994)-(480p).mp4
+y2meta.com-Barış Manço - Gülpembe-(480p).mp4
+y2meta.com-Candan Erçetin - Umrumda Değil-(480p).mp4
+y2meta.com-Demet Sağıroğlu - Arnavut Kaldırımı-(480p).mp4
+y2meta.com-Edis - Martılar (Official Video)-(1080p).mp4
+y2meta.com-Emel Müftüoğlu - Hovarda-(480p).mp4
+y2meta.com-barıs manco - kara sevda-(480p).mp4
+yerlesim-yeri-ve-diger-adres.pdf
+yetercv.pdf
+yks öğrenci belgesi.pdf
+ytg-ogrenci.pdf
+ytg-transkript.pdf
+yuksekogretim-kurulu-universite-e-kayit-belge-sorgulama.pdf
+zaa.jpeg
+~$B9EA4803F34EE09F1D26AA87806430 (1).docx
+~$ESTION FORMATION WITH THE PRESENT TENSES 2022-2023.docx
+~$PP Self-Introduction.pptx
+~$mbers-in-english_53925.doc
+~$tting-to-know-each-other-dice-game-boardgames-games_108579.docx
+Ümit Sayın - Gül Beyaz Gül.m4a
+(base) aybenercetin@Ayben-MacBook-Air Downloads % cd ..
+(base) aybenercetin@Ayben-MacBook-Air ~ % git clone git@github.com:aybenercetin/FSWeb-S1G1-Projesi-Web-Development-Projesi-icin-Git.git
+fatal: destination path 'FSWeb-S1G1-Projesi-Web-Development-Projesi-icin-Git' already exists and is not an empty directory.
+(base) aybenercetin@Ayben-MacBook-Air ~ % git add cevaplar.md
+fatal: not a git repository (or any of the parent directories): .git
+(base) aybenercetin@Ayben-MacBook-Air ~ % pwd
+/Users/aybenercetin
+(base) aybenercetin@Ayben-MacBook-Air ~ % git push -u origin ayben-ercetin
+fatal: not a git repository (or any of the parent directories): .git
+(base) aybenercetin@Ayben-MacBook-Air ~ % cd ~/fsweb-s1g1-projesi-web-development-Projesi-icin-git/ 
+(base) aybenercetin@Ayben-MacBook-Air fsweb-s1g1-projesi-web-development-Projesi-icin-git % git add cevaplar.md
+fatal: pathspec 'cevaplar.md' did not match any files
+(base) aybenercetin@Ayben-MacBook-Air fsweb-s1g1-projesi-web-development-Projesi-icin-git % git add cevaplar.md
+(base) aybenercetin@Ayben-MacBook-Air fsweb-s1g1-projesi-web-development-Projesi-icin-git % push -u origin ayben-ercetin
+zsh: command not found: push
+(base) aybenercetin@Ayben-MacBook-Air fsweb-s1g1-projesi-web-development-Projesi-icin-git % git add
+Nothing specified, nothing added.
+hint: Maybe you wanted to say 'git add .'?
+hint: Turn this message off by running
+hint: "git config advice.addEmptyPathspec false"
+(base) aybenercetin@Ayben-MacBook-Air fsweb-s1g1-projesi-web-development-Projesi-icin-git % git add cevaplar.md
+(base) aybenercetin@Ayben-MacBook-Air fsweb-s1g1-projesi-web-development-Projesi-icin-git % mkdir cevaplar.md
+mkdir: cevaplar.md: File exists
+(base) aybenercetin@Ayben-MacBook-Air fsweb-s1g1-projesi-web-development-Projesi-icin-git % cd ~/fsweb-s1g1-projesi-web-development-Projesi-icin-git/
+(base) aybenercetin@Ayben-MacBook-Air fsweb-s1g1-projesi-web-development-Projesi-icin-git % git status
+On branch ayben-ercetin
+Your branch is up to date with 'origin/ayben-ercetin'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	new file:   cevaplar.md
+
+(base) aybenercetin@Ayben-MacBook-Air fsweb-s1g1-projesi-web-development-Projesi-icin-git % git push -u origin ayben-ercetin
+branch 'ayben-ercetin' set up to track 'origin/ayben-ercetin'.
+Everything up-to-date
+(base) aybenercetin@Ayben-MacBook-Air fsweb-s1g1-projesi-web-development-Projesi-icin-git % git commit -a cevaplar.md
+fatal: paths 'cevaplar.md ...' with -a does not make sense
+(base) aybenercetin@Ayben-MacBook-Air fsweb-s1g1-projesi-web-development-Projesi-icin-git % git commit -a
+hint: Waiting for your editor to close the file... error: There was a problem with the editor 'vi'.
+Please supply the message using either -m or -F option.
+(base) aybenercetin@Ayben-MacBook-Air fsweb-s1g1-projesi-web-development-Projesi-icin-git % 
+(base) aybenercetin@Ayben-MacBook-Air fsweb-s1g1-projesi-web-development-Projesi-icin-git % 
+(base) aybenercetin@Ayben-MacBook-Air fsweb-s1g1-projesi-web-development-Projesi-icin-git % 
+(base) aybenercetin@Ayben-MacBook-Air fsweb-s1g1-projesi-web-development-Projesi-icin-git % 
+(base) aybenercetin@Ayben-MacBook-Air fsweb-s1g1-projesi-web-development-Projesi-icin-git % 
+(base) aybenercetin@Ayben-MacBook-Air fsweb-s1g1-projesi-web-development-Projesi-icin-git % 
+(base) aybenercetin@Ayben-MacBook-Air fsweb-s1g1-projesi-web-development-Projesi-icin-git % 
+(base) aybenercetin@Ayben-MacBook-Air fsweb-s1g1-projesi-web-development-Projesi-icin-git % 
+(base) aybenercetin@Ayben-MacBook-Air fsweb-s1g1-projesi-web-development-Projesi-icin-git % 
+(base) aybenercetin@Ayben-MacBook-Air fsweb-s1g1-projesi-web-development-Projesi-icin-git % 
+(base) aybenercetin@Ayben-MacBook-Air fsweb-s1g1-projesi-web-development-Projesi-icin-git % 
+(base) aybenercetin@Ayben-MacBook-Air fsweb-s1g1-projesi-web-development-Projesi-icin-git % 
+(base) aybenercetin@Ayben-MacBook-Air fsweb-s1g1-projesi-web-development-Projesi-icin-git % 
+(base) aybenercetin@Ayben-MacBook-Air fsweb-s1g1-projesi-web-development-Projesi-icin-git % 
+(base) aybenercetin@Ayben-MacBook-Air fsweb-s1g1-projesi-web-development-Projesi-icin-git % 
+(base) aybenercetin@Ayben-MacBook-Air fsweb-s1g1-projesi-web-development-Projesi-icin-git % 
+(base) aybenercetin@Ayben-MacBook-Air fsweb-s1g1-projesi-web-development-Projesi-icin-git % 
+(base) aybenercetin@Ayben-MacBook-Air fsweb-s1g1-projesi-web-development-Projesi-icin-git % 
+(base) aybenercetin@Ayben-MacBook-Air fsweb-s1g1-projesi-web-development-Projesi-icin-git % 
+(base) aybenercetin@Ayben-MacBook-Air fsweb-s1g1-projesi-web-development-Projesi-icin-git % 
+(base) aybenercetin@Ayben-MacBook-Air fsweb-s1g1-projesi-web-development-Projesi-icin-git % 
+(base) aybenercetin@Ayben-MacBook-Air fsweb-s1g1-projesi-web-development-Projesi-icin-git % 
+(base) aybenercetin@Ayben-MacBook-Air fsweb-s1g1-projesi-web-development-Projesi-icin-git % 
+(base) aybenercetin@Ayben-MacBook-Air fsweb-s1g1-projesi-web-development-Projesi-icin-git % 
+(base) aybenercetin@Ayben-MacBook-Air fsweb-s1g1-projesi-web-development-Projesi-icin-git % 
+(base) aybenercetin@Ayben-MacBook-Air fsweb-s1g1-projesi-web-development-Projesi-icin-git % 
+(base) aybenercetin@Ayben-MacBook-Air fsweb-s1g1-projesi-web-development-Projesi-icin-git % 
+(base) aybenercetin@Ayben-MacBook-Air fsweb-s1g1-projesi-web-development-Projesi-icin-git % 
+(base) aybenercetin@Ayben-MacBook-Air fsweb-s1g1-projesi-web-development-Projesi-icin-git % aaacd ~/fsweb-s1g1-projesi-web-development-Projesi-icin-git/
+zsh: command not found: aaacd
+(base) aybenercetin@Ayben-MacBook-Air fsweb-s1g1-projesi-web-development-Projesi-icin-git %  
